@@ -1,10 +1,6 @@
 import { ImageSourcePropType } from "react-native";
 
-declare global {
-  interface TabIconProps {
-    focused: boolean;
-    icon: ImageSourcePropType;
-  }
+export interface TabIconProps {
+  focused: boolean;
+  icon: ImageSourcePropType;
 }
-
-export {};
